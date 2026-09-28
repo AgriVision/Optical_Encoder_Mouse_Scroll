@@ -25,7 +25,7 @@ Example pin assignment:
 | VCC (red)   | +5 V      |
 | GND (black) | GND       |
 
-The encoder outputs are **NPN open collector** and must not be connected directly to VCC. The A and B signals are pulled up to 5 V with external resistors.
+The encoder outputs A and B are **NPN open collector** and must not be pulled up to 5 V with external resistors. More details, schematic and pictures can be found on [www.agri-vision.nl](https://www.agri-vision.nl/portal/articles/projects/60-optical-rotary-encoder-as-a-usb-mouse-wheel-for-sdr).
 
 ## Arduino / Digispark software
 
